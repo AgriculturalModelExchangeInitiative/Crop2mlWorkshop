@@ -53,7 +53,7 @@ extensions = [
 autosummary_generate = True
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ['_templates', 'static/templates']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -72,12 +72,36 @@ html_theme_options = {"sticky_navigation": "false",
                       "display_version": "true",
                       'logo_only': False}
 
-html_logo='_static/openalea_logo.png'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# The suffix of source filenames.
+source_suffix = '.rst'
+
+# The master toctree document.
+master_doc = 'index'
+
+# One entry per manual page. List of tuples
+# (source start file, name, description, authors, manual section).
+man_pages = [
+    ('index', 'cropmlworkshop',
+     u'CropMLWorkshop Documentation',
+     [u'Cyrille Ahmed Midingoyi'], 1)
+]
+
+
+texinfo_documents = [
+    ('index', 'cropmlworkshop',
+     u'CropMLWorkshop Documentation',
+     u'Cyrille Ahmed Midingoyi',
+     'Crop2MLStudio',
+     'Crop2ML models lifecycle management',
+     'Miscellaneous'),
+]
+
 
 # If false, no module index is generated.
 html_domain_indices = True

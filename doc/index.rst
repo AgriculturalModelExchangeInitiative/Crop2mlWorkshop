@@ -24,7 +24,7 @@ Contents:
    authors
    history
 
-.. include:: ../AUTHORS.rst
+.. include:: authors.rst
 
-.. include:: ../HISTORY.rst	
+.. include:: history.rst	
 

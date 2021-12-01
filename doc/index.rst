@@ -2,10 +2,10 @@
 **Welcome to Crop2ML Workshop**
 ===============================
 
-Contents:
+This project describes the different phases of Crop2ML models lifecycle management
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :numbered:
       
 	How to acess Crop2ML tools and packages? <user/access.rst>
@@ -21,8 +21,6 @@ Contents:
    Crop2ML Model display <user/modeldisplay.rst>
 	Publication <user/Publication.rst>
 	Glossary <user/glossary.rst>
-   authors
-   history
 
 .. include:: authors.rst
 

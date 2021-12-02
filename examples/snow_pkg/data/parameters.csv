@@ -1,0 +1,13 @@
+name;value
+tmaxseuil;0.0
+tminseuil;-0.5
+prof;10.0
+E;0.02
+rho;100
+Pns;100.0
+Kmin;2.0
+Tmf;0.5
+SWrf;0.01
+tsmax;-2.0
+DKmax;1.5
+trmax;1.0

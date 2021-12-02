@@ -1,0 +1,7 @@
+if ! [ -e lib ]
+then
+  mkdir lib
+fi
+
+R CMD SHLIB ./../src/Snow_Processes.f90 ./../src/Snow_routine_module.f90 -o ./lib/libsnowroutine.so
+#rm ./../src/GdC_Process.o

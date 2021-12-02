@@ -6,6 +6,5 @@ This video will guide you to create a Crop2ML package from few information.
 Considering 
 
 
-.. math:: Req   = 10^3*(Rn/lambda)
-    :label: lambda
+
 

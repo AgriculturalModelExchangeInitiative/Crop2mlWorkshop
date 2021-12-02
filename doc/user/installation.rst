@@ -5,7 +5,8 @@ CropMStudio installation
    
    **Questions welcome!**
 
-   This workshop is intended to help teach scientists how to use the Crop2ML package to manage crop model components. Part of that is answering your questions. 
+   This workshop is intended to introduce scientists in crop modeling domain how to use the Crop2ML framework to manage crop model components.
+   Part of that is answering your questions. 
    Please let us know if you have any questions or difficulties by opening an issue on the Crop2MLWorkshop materials `Github repository page <https://github.com/AgriculturalModelExchangeInitiative/Crop2mlWorkshop/issues/new>`_. 
    Chances are good that if you have a question/problem, someone else is having the same question/problem. By reporting them as public issues, you are making it easier for us to help you and helping others to find answers in the future as there will be a searchable record of the problem and (hopefully) a solution.
 
@@ -26,15 +27,15 @@ MyBinder is a free public service that allows users to run Jupyter notebooks on 
 * Open `this link <https://mybinder.org/v2/gh/AgriculturalModelExchangeInitiative/Pycrop2ml_ui.git/HEAD?urlpath=lab>`_ or click the ``launch binder`` button in the README for the `Crop2MLWorkshop repository <https://github.com/AgriculturalModelExchangeInitiative/Crop2mlWorkshop>`_.
 * Wait for the binder instance to launch. This can take update a few minutes if the repository has been updated recently. When the instance is running, you should see a file browser like below. So, it is useful to launch at least once before the workshop
 
-.. image:: /images/binder_launch.png
+.. image:: /images/binder_launching.png
 
 .. note::
 
    Changes you make in your environment are only present on the specific instance that you are interacting with and will disappear when the instance shutdowns. 
    If you want to keep any changes you make, you will need to download your results. You can then upload it to future instances.
 
-Local Install
--------------
+Local Install with conda
+------------------------
 
 This setup method is the most involved, but once it is complete, you will have a local conda environment with yggdrasil installed that can be used in the future.
 
@@ -43,8 +44,8 @@ This setup method is the most involved, but once it is complete, you will have a
    One Windows, commands below should be executed from a conda command prompt which should be available in your start menu after installing miniconda.
 
      
-Docker Container
-----------------
+Local install with Docker Container
+-----------------------------------
 
 Docker containers allow developer to package the entire stack (operating system, dependencies, scripts, data) required to run projects in a contained environment. In this case, we are using the container to run the Jupyter notebooks so you don't have to install the dependencies on your machine which can encounter issues on untested releases and/or combinations of operating systems and/or dependencies.
 

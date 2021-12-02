@@ -11,15 +11,15 @@ CropMStudio installation
 
    Once you are satisfied that your question/bug has been answered/solved, please close the issue or let us know that we may do so. 
 
-.. _setup:
+
 
 There are three methods to run them, MyBinder, local install with or without Docker container, each of which is described below. We recommend using the MyBinder method as it does not require any local installation, but if you have difficulty opening the MyBinder instance, one of the other methods may be preferable.
 
 Reguardless of the installation method, you will need a browser to access the notebook that lauch CropMStudio. MyBinder fully supports Mozilla Firefox, Google Chrome, and Safari. It may work with Microsoft Edge (or Internet Explorer), but these are not guaranteed. If you have trouble accessing the notebooks, we recommend downloading one of those MyBinder fully supports for this workshop.
 
 
-1. MyBinder
-===========
+MyBinder
+--------
 
 MyBinder is a free public service that allows users to run Jupyter notebooks on remote compute resources via BinderHub. This method is the most straight forward as it does not require you to install anything on your machine other than a browser. 
 
@@ -33,8 +33,8 @@ MyBinder is a free public service that allows users to run Jupyter notebooks on 
    Changes you make in your environment are only present on the specific instance that you are interacting with and will disappear when the instance shutdowns. 
    If you want to keep any changes you make, you will need to download your results. You can then upload it to future instances.
 
-2. Local Install
-================
+Local Install
+-------------
 
 This setup method is the most involved, but once it is complete, you will have a local conda environment with yggdrasil installed that can be used in the future.
 
@@ -43,8 +43,8 @@ This setup method is the most involved, but once it is complete, you will have a
    One Windows, commands below should be executed from a conda command prompt which should be available in your start menu after installing miniconda.
 
      
-3. Docker Container
-===================
+Docker Container
+----------------
 
 Docker containers allow developer to package the entire stack (operating system, dependencies, scripts, data) required to run projects in a contained environment. In this case, we are using the container to run the Jupyter notebooks so you don't have to install the dependencies on your machine which can encounter issues on untested releases and/or combinations of operating systems and/or dependencies.
 

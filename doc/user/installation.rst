@@ -26,7 +26,7 @@ MyBinder is a free public service that allows users to run Jupyter notebooks on 
 * Open `this link <https://mybinder.org/v2/gh/AgriculturalModelExchangeInitiative/Pycrop2ml_ui.git/HEAD?urlpath=lab>`_ or click the ``launch binder`` button in the README for the `Crop2MLWorkshop repository <https://github.com/AgriculturalModelExchangeInitiative/Crop2mlWorkshop>`_.
 * Wait for the binder instance to launch. This can take update a few minutes if the repository has been updated recently. When the instance is running, you should see a file browser like below. So, it is useful to launch at least once before the workshop
 
-.. image:: ./images/binder_launch.png
+.. image:: /images/binder_launch.png
 
 .. note::
 

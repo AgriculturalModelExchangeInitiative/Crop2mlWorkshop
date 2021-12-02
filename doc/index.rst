@@ -6,7 +6,7 @@ This project describes the different phases of Crop2ML models lifecycle manageme
 
 .. note::
    
-   **Questions welcome!**
+   **Welcome!!**
 
    This workshop is intended to introduce scientists in crop modeling domain how to use the Crop2ML framework to manage crop model components.
    Part of that is answering your questions. 
@@ -22,7 +22,7 @@ This project describes the different phases of Crop2ML models lifecycle manageme
    :maxdepth: 1
    :numbered:
       
-	How to acess Crop2ML tools and packages? <user/access.rst>
+	About this workshop <user/access.rst>
    CropMStudio installation <user/installation.rst>
 	CropMStudio interface <user/introduction.rst>
 	Create a Crop2ML package <user/createpackage.rst>

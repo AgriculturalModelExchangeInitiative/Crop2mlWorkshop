@@ -1,7 +1,20 @@
-How to acess Crop2ML tools and packages?
-========================================
-| **Crop2ML** is a centralized framework proposed by the Agricultural Model Exhange Initiative (**AMEI**) to exchange and reuse the plant and crop process-based model (PBM) component between PBM frameworks. 
+About this workshop
+===================
 
-| This framework provides a XML-(JSON-)based language used to describe different biological processes involved in the plant and crop growth and development regardless PBM frameworks.
+Objectives
+----------
 
-| Any model component represented with this language will be called Crop2ML model.
+In this workshop you will learn about 
+- AMEI Github project
+- Crop2ML framework, and particularly CropMStudio, a tool used to manage Crop2ML models lifecycle.
+
+
+General information
+-------------------
+- Resources access and presentation
+- Prerequisite
+
+
+
+  
+

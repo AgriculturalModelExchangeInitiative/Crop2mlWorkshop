@@ -5,7 +5,7 @@
 This project describes the different phases of Crop2ML models lifecycle management
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :numbered:
       
 	How to acess Crop2ML tools and packages? <user/access.rst>

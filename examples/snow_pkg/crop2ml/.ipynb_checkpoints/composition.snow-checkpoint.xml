@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ModelComposition PUBLIC " " "https://raw.githubusercontent.com/AgriculturalModelExchangeInitiative/crop2ml/master/ModelComposition.dtd">
+<ModelComposition name="Snow" id="STICS.snow_pkg.Snow" version="1.0" timestep ="1">
+	<Description>
+		<Title>Snow model</Title>
+		<Authors>STICS</Authors>
+		<Institution>STICS</Institution>
+		<Reference>Snow paper</Reference>
+		<Abstract>Snow</Abstract>
+	</Description>
+
+	<Initialization name="init.snow" language="CyML" filename="algo/pyx/init.snow.pyx"/>
+
+	<Composition>
+		<Model name="Melting" id="snow_pkg.Melting" filename="unit.Melting.xml" />
+		<Model name="Refreezing" id="snow_pkg.Refreezing" filename="unit.Refreezing.xml" />
+		<Model name="SnowAccumulation" id="snow_pkg.SnowAccumulation" filename="unit.SnowAccumulation.xml" />
+		<Model name="SnowDensity" id="snow_pkg.SnowDensity" filename="unit.SnowDensity.xml" />
+		<Model name="SnowDepth" id="snow_pkg.SnowDepth" filename="unit.SnowDepth.xml" />
+		<Model name="SnowDepthTrans" id="snow_pkg.SnowDepthTrans" filename="unit.SnowDepthTrans.xml" />
+		<Model name="SnowDry" id="snow_pkg.SnowDry" filename="unit.SnowDry.xml" />
+		<Model name="SnowMelt" id="snow_pkg.SnowMelt" filename="unit.SnowMelt.xml" />
+		<Model name="SnowWet" id="snow_pkg.SnowWet" filename="unit.SnowWet.xml" />
+		<Model name="Tavg" id="snow_pkg.Tavg" filename="unit.Tavg.xml" />
+		<Model name="TempMax" id="snow_pkg.TempMax" filename="unit.TempMax.xml" />
+		<Model name="TempMin" id="snow_pkg.TempMin" filename="unit.TempMin.xml" />
+		<Model name="Preciprec" id="snow_pkg.Preciprec" filename="unit.Preciprec.xml" />
+
+		<Links>
+			<InputLink target="Melting.jul" source="jul" />
+			<InputLink target="TempMin.tmaxseuil" source="tmaxseuil" />
+			<InputLink target="TempMin.tminseuil" source="tminseuil" />
+			<InputLink target="TempMin.prof" source="prof" />
+			<InputLink target="TempMin.tmin" source="tmin" />
+			<InputLink target="TempMax.tmaxseuil" source="tmaxseuil" />
+			<InputLink target="TempMax.tminseuil" source="tminseuil" />
+			<InputLink target="TempMax.tmax" source="tmax" />
+			<InputLink target="TempMax.prof" source="prof" />
+			<InputLink target="Tavg.tmax" source="tmax" />
+			<InputLink target="Tavg.tmin" source="tmin" />
+			<InputLink target="SnowWet.precip" source="precip" />
+			<InputLink target="SnowDry.Sdry_t1" source="Sdry_t1" />
+			<InputLink target="SnowDepth.E" source="E" />
+			<InputLink target="SnowDepth.rho" source="rho" />
+			<InputLink target="SnowDepth.Sdepth_t1" source="Sdepth_t1" />
+			<InputLink target="SnowDepthTrans.Pns" source="Pns" />
+			<InputLink target="SnowWet.Swet_t1" source="Swet_t1" />
+			<InputLink target="SnowDensity.Swet_t1" source="Swet_t1" />
+			<InputLink target="Melting.Kmin" source="Kmin" />
+			<InputLink target="Refreezing.Tmf" source="Tmf" />
+			<InputLink target="Refreezing.SWrf" source="SWrf" />
+			<InputLink target="SnowAccumulation.tsmax" source="tsmax" />
+			<InputLink target="SnowAccumulation.precip" source="precip" />
+			<InputLink target="Melting.DKmax" source="DKmax" />
+			<InputLink target="SnowAccumulation.trmax" source="trmax" />
+			<InputLink target="SnowAccumulation.tmax" source="tmax" />
+			<InputLink target="SnowDensity.ps_t1" source="ps_t1" />
+			<InputLink target="SnowDensity.Sdepth_t1" source="Sdepth_t1" />
+			<InputLink target="SnowDensity.Sdry_t1" source="Sdry_t1" />
+			<InputLink target="Melting.Tmf" source="Tmf" />
+			<InputLink target="Preciprec.precip" source="precip" />
+			<InputLink target="Preciprec.Sdry_t1" source="Sdry_t1" />
+			<InputLink target="Preciprec.Swet_t1" source="Swet_t1" />
+			<InputLink target="Preciprec.Sdepth_t1" source="Sdepth_t1" />
+			<InputLink target="Preciprec.rho" source="rho" />
+
+			<InternalLink target="SnowDepth.Snowaccu" source="SnowAccumulation.Snowaccu" />
+			<InternalLink target="SnowDepthTrans.Sdepth" source="SnowDepth.Sdepth" />
+			<InternalLink target="SnowWet.Snowaccu" source="SnowAccumulation.Snowaccu" />
+			<InternalLink target="SnowWet.Mrf" source="Refreezing.Mrf" />
+			<InternalLink target="SnowMelt.ps" source="SnowDensity.ps" />
+			<InternalLink target="SnowDry.Mrf" source="Refreezing.Mrf" />
+			<InternalLink target="SnowWet.M" source="Melting.M" />
+			<InternalLink target="SnowDepth.Snowmelt" source="SnowMelt.Snowmelt" />
+			<InternalLink target="TempMin.Sdepth_cm" source="SnowDepthTrans.Sdepth_cm" />
+			<InternalLink target="TempMax.Sdepth_cm" source="SnowDepthTrans.Sdepth_cm" />
+			<InternalLink target="SnowDry.M" source="Melting.M" />
+			<InternalLink target="SnowWet.Sdry" source="SnowDry.Sdry" />
+			<InternalLink target="SnowDry.Snowaccu" source="SnowAccumulation.Snowaccu" />
+			<InternalLink target="Melting.tavg" source="Tavg.tavg" />
+			<InternalLink target="Refreezing.tavg" source="Tavg.tavg" />
+			<InternalLink target="Preciprec.Sdry" source="SnowDry.Sdry" />
+			<InternalLink target="Preciprec.Swet" source="SnowWet.Swet" />
+			<InternalLink target="Preciprec.Sdepth" source="SnowDepth.Sdepth" />
+			<InternalLink target="Preciprec.Mrf" source="Refreezing.Mrf" />
+			<InternalLink target="Preciprec.Snowaccu" source="SnowAccumulation.Snowaccu" />
+			
+			<OutputLink target="tmaxrec" source="TempMax.tmaxrec" />
+			<OutputLink target="ps" source="SnowDensity.ps" />
+			<OutputLink target="Mrf" source="Refreezing.Mrf" />
+			<OutputLink target="tavg" source="Tavg.tavg" />
+			<OutputLink target="Swet" source="SnowWet.Swet" />
+			<OutputLink target="Snowmelt" source="SnowMelt.Snowmelt" />
+			<OutputLink target="Snowaccu" source="SnowAccumulation.Snowaccu" />
+			<OutputLink target="Sdry" source="SnowDry.Sdry" />
+			<OutputLink target="Sdepth" source="SnowDepth.Sdepth" />
+			<OutputLink target="tminrec" source="TempMin.tminrec" />
+			<OutputLink target="M" source="Melting.M" />
+			<OutputLink target="preciprec" source="Preciprec.preciprec" />
+			<OutputLink target="Sdepth_cm" source="SnowDepthTrans.Sdepth_cm" />
+		</Links>
+	</Composition>
+
+	<Parametersets>
+		<Parameterset name="paramerterSet1" description="set Parameters for TempMax unit" >
+            <Param name="Tmf">0.5</Param>
+            <Param name="DKmax">1.5</Param>
+			<Param name="Kmin">2.0</Param>
+			<Param name="tsmax">-2.0</Param>
+			<Param name="trmax">1.0</Param>
+			<Param name="SWrf">0.01</Param>
+			<Param name="Pns">100.</Param>
+			<Param name="E">0.02</Param>
+			<Param name="prof">10.</Param>
+			<Param name="tminseuil">-0.5</Param>
+			<Param name="tmaxseuil">0.</Param>
+			<Param name="rho">100.0</Param>
+		</Parameterset>
+	</Parametersets>
+
+</ModelComposition>

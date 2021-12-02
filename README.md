@@ -25,7 +25,7 @@ Describe crop model component lifecycle management
     - A Crop2ML package in "examples" repository that will be used for a large view of Crop2MLSTudio.
     - The tutorial videos can be viewed locally.
 
-#. **Installation**
+- **Installation**
 
 - Try launching a mybinder instance by clicking on this [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cropsinsilico/CiS2021-hackathon/HEAD) icon (or the link below).
     [https://hub.gke2.mybinder.org/user/agriculturalmod-ve-pycrop2ml_ui-jxf4wxpv/lab](https://hub.gke2.mybinder.org/user/agriculturalmod-ve-pycrop2ml_ui-jxf4wxpv/lab)
@@ -38,7 +38,7 @@ Describe crop model component lifecycle management
 
 - [Crop2mlWorksop Repository](https://github.com/AgriculturalModelExchangeInitiative/Crop2mlWorkshop)
 - [CropMStudio Documentation](https://crop2mlworkshop.readthedocs.io/en/latest/?badge=latest)
-- [CropMStudio Repository](hhttps://github.com/AgriculturalModelExchangeInitiative/Pycrop2ml_ui)
+- [CropMStudio Repository](https://github.com/AgriculturalModelExchangeInitiative/Pycrop2ml_ui)
 - [Crop2ML Repository](https://github.com/AgriculturalModelExchangeInitiative/Crop2ML)
 - [Crop2ML Documentation](https://crop2ml.readthedocs.io/en/latest/?badge=latest)
 - [PyCrop2ML Repository](https://github.com/AgriculturalModelExchangeInitiative/PyCrop2ML)

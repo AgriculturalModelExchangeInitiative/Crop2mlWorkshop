@@ -1,19 +1,6 @@
 CropMStudio installation
 ========================
 
-.. note::
-   
-   **Questions welcome!**
-
-   This workshop is intended to introduce scientists in crop modeling domain how to use the Crop2ML framework to manage crop model components.
-   Part of that is answering your questions. 
-   Please let us know if you have any questions or difficulties by opening an issue on the Crop2MLWorkshop materials `Github repository page <https://github.com/AgriculturalModelExchangeInitiative/Crop2mlWorkshop/issues/new>`_. 
-   Chances are good that if you have a question/problem, someone else is having the same question/problem. By reporting them as public issues, you are making it easier for us to help you and helping others to find answers in the future as there will be a searchable record of the problem and (hopefully) a solution.
-
-   Once you are satisfied that your question/bug has been answered/solved, please close the issue or let us know that we may do so. 
-
-
-
 There are three methods to run them, MyBinder, local install with or without Docker container, each of which is described below. We recommend using the MyBinder method as it does not require any local installation, but if you have difficulty opening the MyBinder instance, one of the other methods may be preferable.
 
 Reguardless of the installation method, you will need a browser to access the notebook that lauch CropMStudio. MyBinder fully supports Mozilla Firefox, Google Chrome, and Safari. It may work with Microsoft Edge (or Internet Explorer), but these are not guaranteed. If you have trouble accessing the notebooks, we recommend downloading one of those MyBinder fully supports for this workshop.

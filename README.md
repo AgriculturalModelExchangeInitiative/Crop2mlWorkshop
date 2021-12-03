@@ -1,29 +1,29 @@
-# Crop2mlWorkshop
+# Crop2ml Workshop
 [![Documentation Status](https://readthedocs.org/projects/crop2mlworkshop/badge/?version=latest)](https://crop2mlworkshop.readthedocs.io/en/latest/?badge=latest)
 
-Describe crop model component lifecycle management
+This workshop is designed to give an overview of Crop2ML and to help crop modeler to manage crop model component lifecycle.
 
 ## Getting Started
 
-[This repository](https://github.com/AgriculturalModelExchangeInitiative/Crop2mlWorkshop) provides all the materials required to manage Crop2ML models. The tutorial videos which will guide you throughout this workshop can be found [here](https://crop2mlworkshop.readthedocs.io/en/latest/?badge=latest).
+[This repository](https://github.com/AgriculturalModelExchangeInitiative/Crop2mlWorkshop) provides all the materials required for this workshop. The tutorial videos which will guide you throughout this workshop can be found [here](https://crop2mlworkshop.readthedocs.io/en/latest/?badge=latest).
 
 ### Requirements
 
-- Browser (tested on Google Chrome, Safari, Firefox)
-- Github Account (only necessary to report difficulties or errors encountered)
+- Browser (tested on Google Chrome and Firefox)
+- Github Account (only necessary to report issues encountered)
 
 ### Preparing for the workshop
 
-- [optional] To track difficulties or errors encountered during the workshop, we would like to use Github issues. So  check that you can sign-in to Github, creating an account as necessary. 
+- [optional] To track difficulties or errors encountered during the workshop, or other exercises related to Crop2ML, we would like to use Github issues. So  check that you can sign-in to Github, creating an account as necessary. 
 
-- **Clone or Download** the [workshop materials repository](https://github.com/AgriculturalModelExchangeInitiative/Crop2mlWorkshop)::
+- **Clone or Download** the [workshop materials repository](https://github.com/AgriculturalModelExchangeInitiative/Crop2mlWorkshop) by writing in your terminal::
 
      git clone https://github.com/AgriculturalModelExchangeInitiative/Crop2mlWorkshop.git
 
    If you did not install ``git`` you can download the repo from the [repository webpage](https://github.com/AgriculturalModelExchangeInitiative/Crop2mlWorkshop.git) (click the green "Code" button and select "Download ZIP")
    It contains:
     - A Crop2ML package in "examples" repository that will be used for a large view of Crop2MLSTudio.
-    - The tutorial videos can be viewed locally.
+    - The tutorial videos can be viewed locally in doc repository.
 
 - **Installation**
 
@@ -32,7 +32,7 @@ Describe crop model component lifecycle management
 
     It may take a few moments to initialize. If you encounter an error, open an issue and try with another browser. If you still cannot launch the binder, you can install the materials on your machine by following the instructions at one of the links below
 
-    - Follow installation process [Here](https://crop2mlworkshop.readthedocs.io/en/latest/user/installation.html)
+    - For other installation process, click [Here](https://crop2mlworkshop.readthedocs.io/en/latest/user/installation.html)
 
 ## Useful links
 
@@ -44,6 +44,5 @@ Describe crop model component lifecycle management
 - [PyCrop2ML Repository](https://github.com/AgriculturalModelExchangeInitiative/PyCrop2ML)
 
 
-## Debugging Tips
 
 

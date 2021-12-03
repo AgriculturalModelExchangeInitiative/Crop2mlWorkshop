@@ -1,0 +1,11 @@
+index;Variables;Data columns
+0;minTair;minTair
+1;maxTair;maxTair
+2;solarRadiation;solarRadiation
+3;vaporPressure;vaporPressure
+4;extraSolarRadiation;extraSolarRadiation
+5;hslope;hslope
+6;plantHeight;plantHeight
+7;wind;wind
+8;deficitOnTopLayers;deficitOnTopLayers
+9;VPDair;VPDair

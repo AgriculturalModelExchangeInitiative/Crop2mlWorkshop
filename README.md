@@ -14,7 +14,7 @@ This workshop is designed to give an overview of Crop2ML and to help crop modele
 
 ### Preparing for the workshop
 
-- [optional] To track difficulties or errors encountered during the workshop, or other exercises related to Crop2ML, we would like to use Github issues. So  check that you can sign-in to Github, creating an account as necessary. 
+- [optional] To keep track of bugs, enhancements, or other requests during the workshop or other use of Crop2ML tools and packages, we would like to base on Github issues. For that, check that you can sign-in to Github, creating an account as necessary that will enable you to create an issue
 
 - **Clone or Download** the [workshop materials repository](https://github.com/AgriculturalModelExchangeInitiative/Crop2mlWorkshop) by writing in your terminal::
 

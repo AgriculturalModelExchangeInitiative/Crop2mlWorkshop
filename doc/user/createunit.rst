@@ -8,7 +8,7 @@ Create two simple model units:
 -------------------------------------------
 
 .. math:: netRadiationEquivalentEvaporation = (netRadiation / lambdaV) * 1000.0
-    :label: netRad
+    :label: netRadequation
 
 
 **Net radiation**

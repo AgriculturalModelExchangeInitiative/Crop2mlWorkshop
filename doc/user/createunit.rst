@@ -7,6 +7,13 @@ Create two simple model units:
 **Net radiation in equivalent evaporation**
 -------------------------------------------
 
+
+.. literalinclude:: ../../examples/SQ_Energy_Balance/crop2ml/algo/pyx/netradiation.py
+   :language: cython
+   :start-after: # License: BSD 3 clause
+   :end-before: # To avoid matplotlib
+
+
 .. math:: netRadiationEquivalentEvaporation = (netRadiation / lambdaV) * 1000.0
     :label: netRadequation
 

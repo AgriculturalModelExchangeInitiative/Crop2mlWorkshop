@@ -4,10 +4,25 @@ Create Crop2ML ModelUnit
 Recall that a Crop2ML ModelUnit is composed of its specification (meta-information) represented in a xml file to which is associated an algorithm representing the relationship between the inputs and the outputs of the model.
 
 
-Consider that we want to create two ModelUnits in the Energy Balance package : Net Radiation and Net radiation in equivalent evaporation.
+Consider that you would like to create two simple ModelUnits in the Energy Balance package : Net Radiation and Net radiation in equivalent evaporation.
 Then in the next lines, the meta-information is provided with model equations in order to create two Crop2ML ModelUnits.
 
-Let's go!
+Let's go! 
+* On the home interface click on "Model Creation"
+* Select *Model Unit*
+* Then fill the different tables  with the information related to the ModelUnit.
+  * General information (name, id, version, ...)
+  * Declaration of inputs and outputs (click on Add to create a new row for a new input or output)
+  * Select initialisation if needed 
+  * A Parametersets section will appear if the ModelUnit contains parameters. In this case:
+    * Create a Parameterset by filling its name and description
+    * A table of the ModelUnit parameters will be opened. Then, set the parameters for unit tests. 
+    * Other Parameterset can be created.
+  * Finally, Testsets section appears.
+    * Create a Testset by clicking on Create in Testset Line and by filling its name and description. Associate a Parameterset by selecting its name.
+    * Create one or several tests in this Testset. To create a Test, select Create in Test line. Then, a table of the ModelUnit inputs and outputs will be opened. Then, set the inputs and the expected values of the outputs for unit tests. 
+    * Several Testset can be created.
+  
 
 **Net radiation**
 -----------------
@@ -20,6 +35,16 @@ Let's go!
 
 
 - Model meta-information
+
+.. csv-table:: Parameters meta-information
+   :header: name, description, default, min, max, unit
+   :stub-columns: 1
+
+   albedoCoefficient,albedo Coefficient,0.23,0.0,1.0,""
+   stefanBoltzman,stefan Boltzman constant,4.903E-09,0.0,1.0,""
+   elevation,elevation,0,-5000,10000,m
+
+
   
 .. code-block:: xml
 

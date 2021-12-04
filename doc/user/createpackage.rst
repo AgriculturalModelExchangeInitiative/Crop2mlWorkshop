@@ -20,7 +20,7 @@ Consider that we would like to create a package of the **Energy balance model co
    Description,Modelling energy balance in the wheat crop model SiriusQuality2: Evapotranspiration and canopy and soil temperature calculations
    License,MIT
 
-
+Insert this information in the corresponding cells of package creation table then click on Apply. If you are connected 
  
 
 

@@ -1,7 +1,10 @@
 # Crop2ml Workshop
 [![Documentation Status](https://readthedocs.org/projects/crop2mlworkshop/badge/?version=latest)](https://crop2mlworkshop.readthedocs.io/en/latest/?badge=latest)
 
-This workshop is designed to give an overview of Crop2ML and to help crop modeler to manage crop model component lifecycle.
+This workshop is designed to give an overview of Crop2ML and to help crop modeler to manage crop model component lifecycle  including:
+- Crop2ML package creation
+- Crop2ML model creation, edition, composition and transformation
+
 
 ## Getting Started
 
@@ -16,7 +19,7 @@ This workshop is designed to give an overview of Crop2ML and to help crop modele
 
 - [optional] To keep track of bugs, enhancements, or other requests during the workshop or other use of Crop2ML tools and packages, we would like to base on Github issues. For that, check that you can sign-in to Github, creating an account as necessary that will enable you to create an issue
 
-- **Clone or Download** the [workshop materials repository](https://github.com/AgriculturalModelExchangeInitiative/Crop2mlWorkshop) by writing in your terminal::
+- **Clone or Download** the [workshop materials repository](https://github.com/AgriculturalModelExchangeInitiative/Crop2mlWorkshop) by writing in your terminal:
 
      git clone https://github.com/AgriculturalModelExchangeInitiative/Crop2mlWorkshop.git
 
@@ -30,9 +33,9 @@ This workshop is designed to give an overview of Crop2ML and to help crop modele
     - Try launching a mybinder instance by clicking on this [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AgriculturalModelExchangeInitiative/Pycrop2ml_ui.git/HEAD?urlpath=lab) icon (or the link below).
     [https://mybinder.org/v2/gh/AgriculturalModelExchangeInitiative/Pycrop2ml_ui.git/HEAD?urlpath=lab](https://mybinder.org/v2/gh/AgriculturalModelExchangeInitiative/Pycrop2ml_ui.git/HEAD?urlpath=lab)
 
-    It may take a few moments to initialize. If you encounter an error, open an issue and try with another browser. If you still cannot launch the binder, you can install the materials on your machine by following the instructions at one of the links below
+    It may take a few moments to initialize. If you encounter an error, open an issue and try with another browser. 
 
-    - For other installation process, click [Here](https://crop2mlworkshop.readthedocs.io/en/latest/user/installation.html)
+    - If you still cannot launch the binder, you can install the materials on your machine by following the instructions at one of the two other installation processes. Please, click [Here](https://crop2mlworkshop.readthedocs.io/en/latest/user/installation.html) to access.
 
 ## Useful links
 

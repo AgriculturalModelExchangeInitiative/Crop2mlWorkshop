@@ -7,7 +7,7 @@ Recall that a Crop2ML ModelUnit is composed of its specification (meta-informati
 Consider that you would like to create two simple ModelUnits in the Energy Balance package : Net Radiation and Net radiation in equivalent evaporation.
 Then in the next lines, the meta-information is provided with model equations in order to create two Crop2ML ModelUnits.
 
-Let's go! 
+Let's go!
 * On the home interface click on "Model Creation"
 * Select *Model Unit*
 * Then fill the different tables  with the information related to the ModelUnit.
@@ -32,6 +32,17 @@ Let's go!
 .. literalinclude:: ../../examples/SQ_Energy_Balance/crop2ml/algo/pyx/netradiation.pyx
    :language: cython
    :lineno-start: 2
+
+
+.. math::
+    Nsr = (1.0 - albedoCoefficient) * solarRadiation
+    clearSkySolarRadiation = (0.75 + 2^(10.0, -5) * elevation) * extraSolarRadiation
+    averageT = ((maxTair + 273.16)^4 + (minTair + 273.16)^4) / 2.0
+    surfaceEmissivity = (0.34 - 0.14 * \\sqrt{\\frac{vaporPressure / 10.0}})
+    cloudCoverFactor = (1.35 * (solarRadiation / clearSkySolarRadiation) - 0.35)
+    Nolr = stefanBoltzman * averageT * surfaceEmissivity * cloudCoverFactor
+    netRadiation= Nsr - Nolr
+    netOutGoingLongWaveRadiation = Nolr
 
 
 - Model meta-information
@@ -101,3 +112,11 @@ Let's go!
    :language: cython
 
 
+Look at the process of Crop2ML ModelUnit Creation through this video:
+
+.. raw:: html
+    <video controls src="../videos/create_model_unit/yoga.mp4"></video> 
+
+
+.. raw:: html
+    <video controls src="../_static/create_model_unit/yoga.mp4"></video> 

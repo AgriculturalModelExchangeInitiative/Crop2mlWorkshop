@@ -9,6 +9,7 @@ This project describes the different phases of Crop2ML models lifecycle manageme
    **Welcome!!**
 
    This workshop is intended to introduce scientists in crop modeling domain how to use the Crop2ML framework to manage crop model components.
+   The tools aroud Crop2ML framework are still under development and are not fully operational. This workshop will allow to improve the user experience through comments on their use and your eagerly awaited contributions.
    I will be happy to answer your questions and to collect all the information needed to improve the framework. 
    Please let us know if you have any questions or difficulties by opening an issue on the Crop2MLWorkshop materials `Github repository page <https://github.com/AgriculturalModelExchangeInitiative/Crop2mlWorkshop/issues/new>`_. 
 

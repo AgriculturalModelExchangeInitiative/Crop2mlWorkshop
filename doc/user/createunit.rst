@@ -10,7 +10,8 @@ To create a Crop2ML ModelUnit in CropMStudio:
 
 1. On the home interface click on "Model Creation"
 2. Select *Model Unit*
-3. Then fill the different tables  with the information related to the ModelUnit.General information (name, id, version, ...)
+3. Then fill the different tables  with the information related to the ModelUnit.
+  * General information (name, id, version, ...)
   * Declaration of inputs and outputs (click on Add to create a new row for a new input or output)
   * Select initialisation if needed 
   * A Parametersets section will appear if the ModelUnit contains parameters. In this case:
@@ -60,7 +61,7 @@ Consider that you would like to create two simple ModelUnits in the Energy Balan
 
 
 
-**Net radiation  in equivalent evaporation**
+**Net radiation in equivalent evaporation**
 
 .. literalinclude:: ../../examples/SQ_Energy_Balance/crop2ml/algo/pyx/netradiationequivalentevaporation.pyx
    :language: cython
@@ -83,8 +84,9 @@ Consider that you would like to create two simple ModelUnits in the Energy Balan
 
 Look at the process of Crop2ML ModelUnit Creation through this video:
 
-.. raw:: html
-    <video controls src="../videos/create_model_unit.mp4"></video> 
+.. video:: ../videos/create_model_unit.mp4
+    :width: 500
+    :heigh: 300
 
 
 .. raw:: html

@@ -45,7 +45,8 @@ extensions = [
     'sphinx.ext.inheritance_diagram',
     'sphinx.ext.mathjax',
     'nbsphinx',
-    'nbsphinx_link'
+    'nbsphinx_link',
+    'sphinxcontrib.video'
     # 'jupyter_sphinx'
 ]
 

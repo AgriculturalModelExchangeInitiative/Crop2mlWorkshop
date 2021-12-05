@@ -46,7 +46,6 @@ extensions = [
     'sphinx.ext.mathjax',
     'nbsphinx',
     'nbsphinx_link',
-    'sphinxcontrib.video'
     # 'jupyter_sphinx'
 ]
 

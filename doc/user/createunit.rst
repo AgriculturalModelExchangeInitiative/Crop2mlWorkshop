@@ -3,6 +3,9 @@ Create Crop2ML ModelUnit
 
 Recall that a Crop2ML ModelUnit is composed of its specification (meta-information) represented in a xml file to which is associated an algorithm representing the relationship between the inputs and the outputs of the model.
 
+How
+---
+
 To create a Crop2ML ModelUnit in CropMStudio:
 
 1. On the home interface click on "Model Creation"
@@ -18,14 +21,14 @@ To create a Crop2ML ModelUnit in CropMStudio:
     + Create a Testset by clicking on Create in Testset Line and by filling its name and description. Associate a Parameterset by selecting its name.
     + Create one or several tests in this Testset. To create a Test, select Create in Test line. Then, a table of the ModelUnit inputs and outputs will be opened. Then, set the inputs and the expected values of the outputs for unit tests. 
     + Several Testset can be created.
-  
-4. Exercise:
-------------
+
+Exercise:
+---------
 
 Consider that you would like to create two simple ModelUnits in the Energy Balance package : Net Radiation and Net radiation in equivalent evaporation. Then in the next lines, the meta-information is provided with model equations in order to create two Crop2ML ModelUnits.
 
+
 **Net radiation**
------------------
 
 - Model equations in CyML
   
@@ -52,13 +55,30 @@ Consider that you would like to create two simple ModelUnits in the Energy Balan
    solarRadiation,solar radiation,3,0,10000,MJ*m-2*d-1
    vaporPressure,vapor Pressure,6.1,0,10000,hPa
    extraSolarRadiation,extra Solar Radiation,11.7,0,1000,m
+   netRadiation, net Radiation,""0.0,5000, MJ*m-2*d-1
+   netOutGoingLongWaveRadiation,net OutGoing Long Wave Radiation,"",0.0,5000.0,g*m-2*d-1
+
 
 
 **Net radiation  in equivalent evaporation**
---------------------------------------------
 
 .. literalinclude:: ../../examples/SQ_Energy_Balance/crop2ml/algo/pyx/netradiationequivalentevaporation.pyx
    :language: cython
+
+- Model meta-information
+
+.. csv-table:: Parameters meta-information
+   :header: name, description, default, min, max, unit
+   :stub-columns: 1
+
+   lambdaV,latent heat of vaporization of water,2.454,0.0,10.0,"MJ*kg-1"
+
+.. csv-table:: Variables meta-information
+   :header: name, description, default, min, max, unit
+   :stub-columns: 1
+
+   netRadiation,net Radiation,1.566,0.0,5000.0,"MJ*m-2*d-1"
+   netRadiationEquivalentEvaporation,net Radiation in Equivalent Evaporation,"",0.0,5000.0,"g*m-2*d-1"
 
 
 Look at the process of Crop2ML ModelUnit Creation through this video:

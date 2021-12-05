@@ -84,10 +84,5 @@ Consider that you would like to create two simple ModelUnits in the Energy Balan
 
 Look at the process of Crop2ML ModelUnit Creation through this video:
 
-.. video:: ../videos/create_model_unit.mp4
-    :width: 500
-    :heigh: 300
-
-
 .. raw:: html
     <video controls src="../_static/create_model_unit.mp4"></video> 

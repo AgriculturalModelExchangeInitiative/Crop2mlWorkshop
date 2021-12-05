@@ -116,3 +116,7 @@ Look at the process of Crop2ML ModelUnit Creation through this video:
 
 .. raw:: html
     <video controls src="../videos/create_model_unit/yoga.mp4"></video> 
+
+
+.. raw:: html
+    <video controls src="../_static/create_model_unit/yoga.mp4"></video> 

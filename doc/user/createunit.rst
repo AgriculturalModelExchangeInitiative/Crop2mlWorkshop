@@ -63,6 +63,8 @@ Consider that you would like to create two simple ModelUnits in the Energy Balan
 
 **Net radiation in equivalent evaporation**
 
+- Model equations in CyML
+  
 .. literalinclude:: ../../examples/SQ_Energy_Balance/crop2ml/algo/pyx/netradiationequivalentevaporation.pyx
    :language: cython
 

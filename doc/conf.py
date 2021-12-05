@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.abspath('../examples'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'CropMLStudio'
+project = 'CropMStudio'
 copyright = '2021, Cyrille Midingoyi, Christophe Pradal, Romaric Justes, Nicolas Brichet'
 author = 'Cyrille Midingoyi, Christophe Pradal, Romaric Justes, Nicolas Brichet'
 
@@ -87,17 +87,17 @@ master_doc = 'index'
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'cropmlworkshop',
-     u'CropMLWorkshop Documentation',
+    ('index', 'crop2mlworkshop',
+     u'Crop2MLWorkshop Documentation',
      [u'Cyrille Ahmed Midingoyi'], 1)
 ]
 
 
 texinfo_documents = [
-    ('index', 'cropmlworkshop',
-     u'CropMLWorkshop Documentation',
+    ('index', 'crop2mlworkshop',
+     u'Crop2MLWorkshop Documentation',
      u'Cyrille Ahmed Midingoyi',
-     'Crop2MLStudio',
+     'CropMStudio',
      'Crop2ML models lifecycle management',
      'Miscellaneous'),
 ]

@@ -14,10 +14,8 @@ We intent through Crop2ML to making your model component immediately reproducibl
 General information
 -------------------
 
-- Resources access and presentation
-  * All the resources are listed on the `Readme page <https://github.com/AgriculturalModelExchangeInitiative/Crop2mlWorkshop#readme>`_. 
-- Prerequisite
-  * Crop2ML model concepts through Crop2ML and CyML publications and repositories
+- Resources access and presentation. All the resources are listed on the `Readme page <https://github.com/AgriculturalModelExchangeInitiative/Crop2mlWorkshop#readme>`_. 
+- Prerequisite: Crop2ML model concepts.  We invite you to read the `Crop2ML and CyML papers <../Publication.rst>`_.
   
   
 

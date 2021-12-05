@@ -33,7 +33,7 @@ This workshop is designed to give an overview of Crop2ML and to help crop modele
     - Try launching a mybinder instance by clicking on this [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AgriculturalModelExchangeInitiative/Pycrop2ml_ui.git/HEAD?urlpath=lab) icon (or the link below).
     [https://mybinder.org/v2/gh/AgriculturalModelExchangeInitiative/Pycrop2ml_ui.git/HEAD?urlpath=lab](https://mybinder.org/v2/gh/AgriculturalModelExchangeInitiative/Pycrop2ml_ui.git/HEAD?urlpath=lab)
 
-    It may take a few moments to initialize. If you encounter an error, open an issue and try with another browser. 
+        It may take a few moments to initialize. If you encounter an error, open an issue and try with another browser. 
 
     - If you still cannot launch the binder, you can install the materials on your machine by following the instructions at one of the two other installation processes. Please, click [Here](https://crop2mlworkshop.readthedocs.io/en/latest/user/installation.html) to access.
 

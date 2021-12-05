@@ -33,6 +33,7 @@ Contents:
    Edit Crop2ML ModelComposite <user/editcomposite.rst>
    Transform Crop2ML Model <user/modeltransformation.rst>
    Display Crop2ML Model <user/modeldisplay.rst>
+   Execute a Crop2ML package <user/modelexecute.rst>
 	Publication <Publication.rst>
 	Glossary <glossary.rst>
 

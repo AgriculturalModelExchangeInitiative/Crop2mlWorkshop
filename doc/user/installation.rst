@@ -43,7 +43,7 @@ Docker containers allow developer to package the entire stack (operating system,
   
       docker run -p8888:8888 nbrichet/cropmstudio
 
-* **Open the browser** by going to http://localhost:8888/tree in your browser. You should see a file browser like the one below
+* **copy and paste** in your browser the url that will be displayed. You should see a file browser like the one below
 
 .. image:: /images/binder_launch.png
 

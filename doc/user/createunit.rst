@@ -1,7 +1,7 @@
 Create Crop2ML ModelUnit
 ========================
 
-Recall that a Crop2ML ModelUnit is composed of its specification (meta-information) represented in a xml file to which is associated an algorithm representing the relationship between the inputs and the outputs of the model.
+Remind that a Crop2ML ModelUnit is composed of its specification (meta-information) represented in a xml file to which is associated an algorithm representing the relationship between the inputs and the outputs of the model.
 
 How
 ---

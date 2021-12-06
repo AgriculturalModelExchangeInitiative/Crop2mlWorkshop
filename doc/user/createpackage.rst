@@ -8,7 +8,7 @@ To access the structure of a Crop2ML package and for more information, please cl
 
 This video will guide you to create a Crop2ML package from few information.
 
-Consider that we would like to create a package of the **Energy balance model component**. We do that by providing the below information into the qgrid widget and click Apply
+Consider that we would like to create a package of the **Energy balance model component** described in https://www1.clermont.inra.fr/siriusquality/?page_id=547. We do that by providing the below information into the qgrid widget and click Apply
 
 .. csv-table:: Information required to create an empty Energy Balance package through CropMStudio
    :widths: 20, 60

@@ -10,7 +10,7 @@ To create a Crop2ML ModelComposite in CropMStudio:
 2. Select *Model Composite*
 3. Then fill the different tables  with the information related to the ModelComposite.
   * General information (name, id, version, ...)
-  * Create Inpulinks (click on Add to create a new row for a new input or output)
+  * Create Inpulinks (click on Add to create a new row for a new links)
   * Create Internallinks
   * Create Outputlinks
 

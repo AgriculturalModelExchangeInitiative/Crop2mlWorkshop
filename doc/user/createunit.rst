@@ -53,11 +53,11 @@ Consider that you would like to create two simple ModelUnits in the Energy Balan
 
    minTair,minimum air temperature,0.7,-30,45.0,"degC"
    maxTair,maximum air Temperature,7.2,-30.0,45.0,"degC"
-   solarRadiation,solar radiation,3,0,10000,MJ*m-2*d-1
-   vaporPressure,vapor Pressure,6.1,0,10000,hPa
-   extraSolarRadiation,extra Solar Radiation,11.7,0,1000,m
-   netRadiation, net Radiation,""0.0,5000, MJ*m-2*d-1
-   netOutGoingLongWaveRadiation,net OutGoing Long Wave Radiation,"",0.0,5000.0,g*m-2*d-1
+   solarRadiation,solar radiation,3,0.0,10000.0,"MJ*m-2*d-1"
+   vaporPressure,vapor Pressure,6.1,0.0,10000.0,"hPa"
+   extraSolarRadiation,extra Solar Radiation,11.7,0.0,1000.0,"m"
+   netRadiation, net Radiation,"",0.0,5000.0, "MJ*m-2*d-1"
+   netOutGoingLongWaveRadiation,net OutGoing Long Wave Radiation,"",0.0,5000.0,"g*m-2*d-1"
 
 
 

@@ -6,7 +6,7 @@ How
 
 To create a Crop2ML ModelComposite in CropMStudio:
 
-1. On the home interface click on "Model Creation"
+1. On the home interface click on *Model Creation*
 2. Select *Model Composite*
 3. Then fill the different tables  with the information related to the ModelComposite.
   * General information (name, id, version, ...)

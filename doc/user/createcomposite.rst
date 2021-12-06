@@ -17,7 +17,7 @@ To create a Crop2ML ModelComposite in CropMStudio:
 Exercise:
 ---------
 
-Consider the two simple ModelUnits in the Energy Balance package Net Radiation and Net radiation in equivalent evaporation. 
+Consider the two simple ModelUnits in the Energy_Balance_test package Net Radiation and Net radiation in equivalent evaporation. 
 Then create a ModelComposite based on these two ModelUnits.
 
 

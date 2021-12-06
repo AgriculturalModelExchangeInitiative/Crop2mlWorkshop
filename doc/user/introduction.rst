@@ -15,9 +15,9 @@ Introduction to Jupyterlab and programming languages kernels
 Jupyterlab extensions
 ---------------------
 Extensions allow users and developers to:
-- create new editors, output visualization
-- extend existing functionalities
-- provide API for other extensions to users
+   - create new editors, output visualization
+   - extend existing functionalities
+   - provide API for other extensions to users
   
 Given that the core extensions are limited in scope, JUpyterlab offers the capacity to create a customized environment
 

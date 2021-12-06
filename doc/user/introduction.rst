@@ -9,6 +9,9 @@ Introduction to Jupyterlab and programming languages kernels
 - Support over 50 programming languages
 - Designed as modular, extensible, interactive environment
 
+.. image:: ../images/interface_jupyterlab.png
+   :align: center
+
 Jupyterlab extensions
 ---------------------
 Extensions allow users and developers to:

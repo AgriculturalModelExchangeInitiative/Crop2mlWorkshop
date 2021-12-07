@@ -35,7 +35,7 @@ Consider that you would like to create two simple ModelUnits in the Energy Balan
   
 .. literalinclude:: ../../examples/SQ_Energy_Balance/crop2ml/algo/pyx/netradiation.pyx
    :language: cython
-   :emphasize-lines: 1-8
+   :lines: 1-8
    :lineno-start: 1
 
 - Model meta-information
@@ -44,8 +44,8 @@ Consider that you would like to create two simple ModelUnits in the Energy Balan
    :header: name, description, default, min, max, unit
    :stub-columns: 1
 
-   albedoCoefficient,albedo Coefficient,0.23,0.0,1.0,""
-   stefanBoltzman,stefan Boltzman constant,4.903E-09,0.0,1.0,""
+   albedoCoefficient,albedo Coefficient,0.23,0.0,1.0,"unitless"
+   stefanBoltzman,stefan Boltzman constant,4.903E-09,0.0,1.0,"unitless"
    elevation,elevation,0,-5000,10000,m
 
 .. csv-table:: Variables meta-information
@@ -54,11 +54,10 @@ Consider that you would like to create two simple ModelUnits in the Energy Balan
 
    minTair,minimum air temperature,0.7,-30,45.0,"degC"
    maxTair,maximum air Temperature,7.2,-30.0,45.0,"degC"
-   solarRadiation,solar radiation,3,0.0,10000.0,"MJ*m-2*d-1"
+   solarRadiation,solar radiation,3,0.0,10000.0,"MJ/(m**2*d)"
    vaporPressure,vapor Pressure,6.1,0.0,10000.0,"hPa"
    extraSolarRadiation,extra Solar Radiation,11.7,0.0,1000.0,"m"
-   netRadiation, net Radiation,"",0.0,5000.0, "MJ*m-2*d-1"
-   netOutGoingLongWaveRadiation,net OutGoing Long Wave Radiation,"",0.0,5000.0,"g*m-2*d-1"
+   netRadiation, net Radiation,"",0.0,5000.0, "MJ/(m**2*d)"
 
 
 
@@ -75,14 +74,14 @@ Consider that you would like to create two simple ModelUnits in the Energy Balan
    :header: name, description, default, min, max, unit
    :stub-columns: 1
 
-   lambdaV,latent heat of vaporization of water,2.454,0.0,10.0,"MJ*kg-1"
+   lambdaV,latent heat of vaporization of water,2.454,0.0,10.0,"MJ/kg"
 
 .. csv-table:: Variables meta-information
    :header: name, description, default, min, max, unit
    :stub-columns: 1
 
    netRadiation,net Radiation,1.566,0.0,5000.0,"MJ*m-2*d-1"
-   netRadiationEquivalentEvaporation,net Radiation in Equivalent Evaporation,"",0.0,5000.0,"g*m-2*d-1"
+   netRadiationEquivalentEvaporation,net Radiation in Equivalent Evaporation,"",0.0,5000.0,"g/(m**2*d)"
 
 
 Look at the process of Crop2ML ModelUnit Creation through this video:

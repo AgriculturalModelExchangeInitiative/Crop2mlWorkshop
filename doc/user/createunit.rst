@@ -35,6 +35,7 @@ Consider that you would like to create two simple ModelUnits in the Energy Balan
   
 .. literalinclude:: ../../examples/SQ_Energy_Balance/crop2ml/algo/pyx/netradiation.pyx
    :language: cython
+   :emphasize-lines: 1-8
    :lineno-start: 1
 
 - Model meta-information

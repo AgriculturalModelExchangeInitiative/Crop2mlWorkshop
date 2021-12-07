@@ -38,6 +38,6 @@ create the Crop2ML ModelUnit and link it with the two others ModelUnits of the M
    :header: name, description, default, min, max, unit
    :stub-columns: 1
 
-   netRadiationEquivalentEvaporation,net Radiation in Equivalent Evaporation,638.142,0.0,5000.0,"g*m-2*d-1"
-   hslope,the slope of saturated vapor pressure temperature curve at a given temperature,7.2,-30.0,45.0,"hPa*degC-1"
-   evapoTranspirationPriestlyTaylor,evapoTranspiration of Priestly Taylor,"",0.0,10000.0,"g*m-2*d-1"
+   netRadiationEquivalentEvaporation,net Radiation in Equivalent Evaporation,638.142,0.0,5000.0,"g/(m**2*d)"
+   hslope,the slope of saturated vapor pressure temperature curve at a given temperature,7.2,-30.0,45.0,"hPa/degC"
+   evapoTranspirationPriestlyTaylor,evapoTranspiration of Priestly Taylor,"",0.0,10000.0,"g/(m**2*d)"

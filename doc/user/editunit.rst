@@ -17,4 +17,4 @@ To edit a Crop2ML ModelUnit in CropMStudio:
 Exercise:
 ---------
 
-Create another unit test in netRadiation ModelUnit
+Create another unit test in netRadiationEquivalentEvaporation ModelUnit.

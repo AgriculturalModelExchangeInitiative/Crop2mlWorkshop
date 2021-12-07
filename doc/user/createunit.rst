@@ -8,7 +8,7 @@ How
 
 To create a Crop2ML ModelUnit in CropMStudio:
 
-1. On the home interface click on "Model Creation"
+1. On the home interface click on ``Model Creation``
 2. Select *Model Unit*
 3. Then fill the different tables  with the information related to the ModelUnit.
   * General information (name, id, version, ...)
@@ -84,7 +84,7 @@ Consider that you would like to create two simple ModelUnits in the Energy Balan
    netRadiationEquivalentEvaporation,net Radiation in Equivalent Evaporation,"",0.0,5000.0,"g/(m**2*d)"
 
 
-Look at the process of Crop2ML ModelUnit Creation through this video:
+Look at the process of Crop2ML ModelUnit Creation through the video
 
 .. raw:: html
     <video controls src="../_static/create_model_unit.mp4"></video> 

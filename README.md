@@ -48,4 +48,4 @@ This workshop is designed to give an overview of Crop2ML and to help crop modele
 
 
 
-
+https://drive.google.com/drive/folders/17e96SgaLVodCOiHNohrvlvMFz4vv9r3c?usp=sharing

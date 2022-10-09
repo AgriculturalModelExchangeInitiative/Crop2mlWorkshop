@@ -37,11 +37,11 @@ Docker containers allow developer to package the entire stack (operating system,
 * **Download and install docker** from `here <https://docs.docker.com/get-docker/>`_.
 * **Pull the workshop image** from `docker hub <https://hub.docker.com/r/nbrichet/cropmstudio>`_::
 
-     docker pull nbrichet/cropmstudio
+     docker pull cyrilleahmed/cropmstudio
      
 * **Start a container** from the CropMStudio image by running the command below::
   
-      docker run -p8888:8888 nbrichet/cropmstudio
+      docker run -p8888:8888 cyrilleahmed/cropmstudio
 
 * **Copy and paste** in your browser the url that will be displayed. You should see a file browser like the one below
 

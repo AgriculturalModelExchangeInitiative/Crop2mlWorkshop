@@ -4,12 +4,17 @@
 
     <Description>
         <Title>NetRadiation Model</Title>
-        <Authors>Pierre Martre</Authors>
-        <Institution>INRA Montpellier</Institution>
-        <Reference>Modelling energy balance in the wheat crop model SiriusQuality2:
-            Evapotranspiration and canopy and soil temperature calculations</Reference>
-        <Abstract>It is calculated at the surface of the canopy and is givenby the difference between incoming and outgoing radiation of both short
-                     and long wavelength radiation </Abstract>
+        <Authors>Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin</Authors>
+        <Institution>New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.
+        </Institution>
+        <Reference> https://doi.org/10.1016/0168-1923(94)02214-5</Reference>
+        <ExtendedDescription>It is calculated at the surface of the canopy and is givenby the difference between incoming and outgoing radiation of both short
+                     and long wavelength radiation </ExtendedDescription>
+        <ShortDescription>It refers as difference between incoming and outgoing radiation of both short
+            and long wavelength radiation </ShortDescription>
     </Description>
 
     <Inputs>

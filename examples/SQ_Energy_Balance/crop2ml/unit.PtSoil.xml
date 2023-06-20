@@ -3,11 +3,15 @@
 <ModelUnit modelid="SQ.EnergyBalance.PtSoil" name="PtSoil" timestep="1" version="1.0">
     <Description>
         <Title>PtSoil EnergyLimitedEvaporation Model</Title>
-        <Authors>Pierre Martre</Authors>
-        <Institution>INRA Montpellier</Institution>
-        <Reference>Modelling energy balance in the wheat crop model SiriusQuality2:
-            Evapotranspiration and canopy and soil temperature calculations</Reference>
-        <Abstract>Evaporation from the soil in the energy-limited stage </Abstract>
+        <Authors>Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin</Authors>
+        <Institution>New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.
+        </Institution>
+        <Reference>https://doi.org/10.1016/0168-1923(94)02214-5</Reference>
+        <ExtendedDescription>Evaporation from the soil in the energy-limited stage </ExtendedDescription>
+        <ShortDescription>Evaporation from the soil in the energy-limited stage</ShortDescription>
     </Description>
     <Inputs>
 

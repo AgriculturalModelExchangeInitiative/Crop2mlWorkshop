@@ -1,10 +1,11 @@
- AgriculturalModelExchangeInitiative
-==============================
+
+AgriculturalModelExchangeInitiative
+===================================
 
 Model of Energy Balance of the crop growth simulation model SiriusQuality
 
 Project Organization
-------------
+--------------------
 
 ```
 
@@ -14,14 +15,15 @@ Project Organization
     │
     ├── doc/               <- Package documentation
     │
-    ├── test/             <- model tests for each language and platform
+    ├── test/              <- model tests for each language and platform
     │
-    ├── crop2ml/          <- model units and composite in crop2ml format.
+    ├── crop2ml/           <- model units and composite in crop2ml format.
     │      ├── xml files
     │      ├── Algo/
-    |
     │
-    ├── src/                <- Executable source in different language and platform
+    ├── original/          <- The initial implementation of the model component.
+    │
+    ├── src/               <- Executable source in different language and platform
     │   ├── pyx/
     │   ├── java/
     │   ├── py/
@@ -45,10 +47,12 @@ Model visualization
 An example of transformation in OpenAlea
 ----------------------------------------
 
-![](doc/images/energy_balance.png)
+![](doc/images/openalea_workflow.png)
 
 
 
 An example of unit test in R (Penman model unit)
 ------------------------------------------------
-![](doc/images/test_penman.PNG)
+
+![](doc/images/penman_notebook.png)
+

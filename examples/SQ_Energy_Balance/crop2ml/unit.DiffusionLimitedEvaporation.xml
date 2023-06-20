@@ -6,11 +6,16 @@
             version="1.0">
     <Description>
         <Title>DiffusionLimitedEvaporation Model</Title>
-        <Authors>Pierre Martre</Authors>
-        <Institution>INRA Montpellier</Institution>
-        <Reference>Modelling energy balance in the wheat crop model SiriusQuality2:
-            Evapotranspiration and canopy and soil temperature calculations</Reference>
-        <Abstract>the evaporation from the diffusion limited soil </Abstract>
+        <Authors>Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin</Authors>
+        <Institution>New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.
+        </Institution>
+        <Reference> https://doi.org/10.1016/0168-1923(94)02214-5</Reference>
+        <ExtendedDescription>the evaporation from the diffusion limited soil </ExtendedDescription>
+        <ShortDescription>It calculates the diffusion limited evaropration
+        </ShortDescription>
     </Description>
     <Inputs>
         <Input name="deficitOnTopLayers" description="deficit On TopLayers" 

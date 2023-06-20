@@ -3,14 +3,18 @@
 <ModelUnit modelid="SQ.EnergyBalance.EvapoTranspiration" name="EvapoTranspiration" timestep="1" version="1.0">
     <Description>
         <Title>Evapotranspiration Model</Title>
-        <Authors>Pierre Martre</Authors>
-        <Institution>INRA Montpellier</Institution>
-        <Reference>Modelling energy balance in the wheat crop model SiriusQuality2:
-            Evapotranspiration and canopy and soil temperature calculations</Reference>
-        <Abstract>According to the availability of wind and/or vapor pressure daily data, the
+        <Authors>Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin</Authors>
+        <Institution>New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.
+        </Institution>
+        <Reference> https://doi.org/10.1016/0168-1923(94)02214-5</Reference>
+        <ExtendedDescription>According to the availability of wind and/or vapor pressure daily data, the
             SiriusQuality2 model calculates the evapotranspiration rate using the Penman (if wind
             and vapor pressure data are available) (Penman 1948) or the Priestly-Taylor
-            (Priestley and Taylor 1972) method </Abstract>
+            (Priestley and Taylor 1972) method </ExtendedDescription>
+        <ShortDescription>It uses to choose evapotranspiration of Penmann or Priestly-Taylor </ShortDescription>
     </Description>
 
     <Inputs>

@@ -3,15 +3,19 @@
 <ModelUnit modelid="SQ.EnergyBalance.NetRadiationEquivalentEvaporation" name="NetRadiationEquivalentEvaporation" timestep="1" version="1.0">
     <Description>
         <Title>NetRadiationEquivalentEvaporation Model</Title>
-        <Authors>Pierre Martre</Authors>
-        <Institution>INRA/LEPSE Montpellier</Institution>
-        <Reference>Modelling energy balance in the wheat crop model SiriusQuality2:
-            Evapotranspiration and canopy and soil temperature calculations</Reference>
-        <Abstract> It is given by dividing net radiation by latent heat of vaporization of water </Abstract>
+        <Authors>Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin</Authors>
+        <Institution>New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.
+        </Institution>
+        <Reference> https://doi.org/10.1016/0168-1923(94)02214-5</Reference>
+        <ExtendedDescription> It is given by dividing net radiation by latent heat of vaporization of water </ExtendedDescription>
+        <ShortDescription>It is given by dividing net radiation by latent heat of vaporization of water</ShortDescription>
     </Description>
     <Inputs>
         <Input name="lambdaV" description="latent heat of vaporization of water" parametercategory="constant" datatype="DOUBLE" default="2.454" min="0" max="10" unit="MJ kg-1" uri="http://www1.clermont.inra.fr/siriusquality/?page_id=547" inputtype="parameter"/>
-        <Input name="netRadiation" description="net radiation" variablecategory="state" datatype="DOUBLE" default="1.566" min="0" max="5000" unit="MJ m-2 d-1" uri="http://www1.clermont.inra.fr/siriusquality/?page_id=547" inputtype="variable"/>
+        <Input name="netRadiation" description="net radiation" variablecategory="auxiliary" datatype="DOUBLE" default="1.566" min="0" max="5000" unit="MJ m-2 d-1" uri="http://www1.clermont.inra.fr/siriusquality/?page_id=547" inputtype="variable"/>
 
     </Inputs>
     <Outputs>

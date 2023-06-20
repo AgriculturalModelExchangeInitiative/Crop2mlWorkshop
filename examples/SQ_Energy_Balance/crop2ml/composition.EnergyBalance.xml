@@ -3,10 +3,17 @@
 <ModelComposition name="EnergyBalance" id="SQ.EnergyBalance" version="001" timestep = "1">
   <Description>
     <Title>EnergyBalance</Title>
-    <Authors>Pierre MARTRE</Authors>
-    <Institution>INRA/LEPSE</Institution>
-    <Reference>Modelling energy balance in the wheat crop model SiriusQuality2: Evapotranspiration and canopy and soil temperature calculations</Reference>
-    <Abstract>see documentation at http://www1.clermont.inra.fr/siriusquality/?page_id=547</Abstract>
+		<Authors>Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin</Authors>
+    <Institution><![CDATA[New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.,
+            New Zealand Institute for Crop and Food Research Ltd.]]>
+    </Institution>
+    <Reference>https://doi.org/10.1016/0168-1923(94)02214-5</Reference>
+    <ExtendedDescription>Modelling energy balance in the wheat crop model SiriusQuality2: Evapotranspiration and canopy and soil temperature calculations
+                        see documentation at http://www1.clermont.inra.fr/siriusquality/?page_id=547
+    </ExtendedDescription>
+    <ShortDescription>This component calculates the canopy temperature and energy balance</ShortDescription>
   </Description>
   <Composition>
     <Model name="NetRadiation" id="SQ.EnergyBalance.NetRadiation" filename="unit.NetRadiation.xml" />
